@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8A01AC1CAE2EB80034741B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A01AB1CAE2EB80034741B /* AppDelegate.swift */; };
+		FB8A01AE1CAE2EB80034741B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A01AD1CAE2EB80034741B /* ViewController.swift */; };
+		FB8A01B11CAE2EB80034741B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8A01AF1CAE2EB80034741B /* Main.storyboard */; };
+		FB8A01B41CAE2EB80034741B /* ContentBlockerExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB8A01B21CAE2EB80034741B /* ContentBlockerExample.xcdatamodeld */; };
+		FB8A01B61CAE2EB80034741B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8A01B51CAE2EB80034741B /* Assets.xcassets */; };
+		FB8A01B91CAE2EB80034741B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8A01B71CAE2EB80034741B /* LaunchScreen.storyboard */; };
+		FB8A01C41CAE2EB80034741B /* ContentBlockerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A01C31CAE2EB80034741B /* ContentBlockerExampleTests.swift */; };
+		FB8A01CF1CAE2EB80034741B /* ContentBlockerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A01CE1CAE2EB80034741B /* ContentBlockerExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB8A01C01CAE2EB80034741B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8A01A01CAE2EB80034741B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8A01A71CAE2EB80034741B;
+			remoteInfo = ContentBlockerExample;
+		};
+		FB8A01CB1CAE2EB80034741B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8A01A01CAE2EB80034741B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8A01A71CAE2EB80034741B;
+			remoteInfo = ContentBlockerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB8A01A81CAE2EB80034741B /* ContentBlockerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentBlockerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8A01AB1CAE2EB80034741B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB8A01AD1CAE2EB80034741B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB8A01B01CAE2EB80034741B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB8A01B31CAE2EB80034741B /* ContentBlockerExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContentBlockerExample.xcdatamodel; sourceTree = "<group>"; };
+		FB8A01B51CAE2EB80034741B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8A01B81CAE2EB80034741B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB8A01BA1CAE2EB80034741B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8A01BF1CAE2EB80034741B /* ContentBlockerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContentBlockerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8A01C31CAE2EB80034741B /* ContentBlockerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerExampleTests.swift; sourceTree = "<group>"; };
+		FB8A01C51CAE2EB80034741B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8A01CA1CAE2EB80034741B /* ContentBlockerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContentBlockerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8A01CE1CAE2EB80034741B /* ContentBlockerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerExampleUITests.swift; sourceTree = "<group>"; };
+		FB8A01D01CAE2EB80034741B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8A01A51CAE2EB80034741B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8A01BC1CAE2EB80034741B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8A01C71CAE2EB80034741B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8A019F1CAE2EB80034741B = {
+			isa = PBXGroup;
+			children = (
+				FB8A01AA1CAE2EB80034741B /* ContentBlockerExample */,
+				FB8A01C21CAE2EB80034741B /* ContentBlockerExampleTests */,
+				FB8A01CD1CAE2EB80034741B /* ContentBlockerExampleUITests */,
+				FB8A01A91CAE2EB80034741B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8A01A91CAE2EB80034741B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8A01A81CAE2EB80034741B /* ContentBlockerExample.app */,
+				FB8A01BF1CAE2EB80034741B /* ContentBlockerExampleTests.xctest */,
+				FB8A01CA1CAE2EB80034741B /* ContentBlockerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8A01AA1CAE2EB80034741B /* ContentBlockerExample */ = {
+			isa = PBXGroup;
+			children = (
+				FB8A01AB1CAE2EB80034741B /* AppDelegate.swift */,
+				FB8A01AD1CAE2EB80034741B /* ViewController.swift */,
+				FB8A01AF1CAE2EB80034741B /* Main.storyboard */,
+				FB8A01B51CAE2EB80034741B /* Assets.xcassets */,
+				FB8A01B71CAE2EB80034741B /* LaunchScreen.storyboard */,
+				FB8A01BA1CAE2EB80034741B /* Info.plist */,
+				FB8A01B21CAE2EB80034741B /* ContentBlockerExample.xcdatamodeld */,
+			);
+			path = ContentBlockerExample;
+			sourceTree = "<group>";
+		};
+		FB8A01C21CAE2EB80034741B /* ContentBlockerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8A01C31CAE2EB80034741B /* ContentBlockerExampleTests.swift */,
+				FB8A01C51CAE2EB80034741B /* Info.plist */,
+			);
+			path = ContentBlockerExampleTests;
+			sourceTree = "<group>";
+		};
+		FB8A01CD1CAE2EB80034741B /* ContentBlockerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8A01CE1CAE2EB80034741B /* ContentBlockerExampleUITests.swift */,
+				FB8A01D01CAE2EB80034741B /* Info.plist */,
+			);
+			path = ContentBlockerExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8A01A71CAE2EB80034741B /* ContentBlockerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8A01D31CAE2EB80034741B /* Build configuration list for PBXNativeTarget "ContentBlockerExample" */;
+			buildPhases = (
+				FB8A01A41CAE2EB80034741B /* Sources */,
+				FB8A01A51CAE2EB80034741B /* Frameworks */,
+				FB8A01A61CAE2EB80034741B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContentBlockerExample;
+			productName = ContentBlockerExample;
+			productReference = FB8A01A81CAE2EB80034741B /* ContentBlockerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8A01BE1CAE2EB80034741B /* ContentBlockerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8A01D61CAE2EB80034741B /* Build configuration list for PBXNativeTarget "ContentBlockerExampleTests" */;
+			buildPhases = (
+				FB8A01BB1CAE2EB80034741B /* Sources */,
+				FB8A01BC1CAE2EB80034741B /* Frameworks */,
+				FB8A01BD1CAE2EB80034741B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8A01C11CAE2EB80034741B /* PBXTargetDependency */,
+			);
+			name = ContentBlockerExampleTests;
+			productName = ContentBlockerExampleTests;
+			productReference = FB8A01BF1CAE2EB80034741B /* ContentBlockerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB8A01C91CAE2EB80034741B /* ContentBlockerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8A01D91CAE2EB80034741B /* Build configuration list for PBXNativeTarget "ContentBlockerExampleUITests" */;
+			buildPhases = (
+				FB8A01C61CAE2EB80034741B /* Sources */,
+				FB8A01C71CAE2EB80034741B /* Frameworks */,
+				FB8A01C81CAE2EB80034741B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8A01CC1CAE2EB80034741B /* PBXTargetDependency */,
+			);
+			name = ContentBlockerExampleUITests;
+			productName = ContentBlockerExampleUITests;
+			productReference = FB8A01CA1CAE2EB80034741B /* ContentBlockerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8A01A01CAE2EB80034741B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hongfei Li";
+				TargetAttributes = {
+					FB8A01A71CAE2EB80034741B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FB8A01BE1CAE2EB80034741B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FB8A01A71CAE2EB80034741B;
+					};
+					FB8A01C91CAE2EB80034741B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FB8A01A71CAE2EB80034741B;
+					};
+				};
+			};
+			buildConfigurationList = FB8A01A31CAE2EB80034741B /* Build configuration list for PBXProject "ContentBlockerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8A019F1CAE2EB80034741B;
+			productRefGroup = FB8A01A91CAE2EB80034741B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8A01A71CAE2EB80034741B /* ContentBlockerExample */,
+				FB8A01BE1CAE2EB80034741B /* ContentBlockerExampleTests */,
+				FB8A01C91CAE2EB80034741B /* ContentBlockerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8A01A61CAE2EB80034741B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8A01B91CAE2EB80034741B /* LaunchScreen.storyboard in Resources */,
+				FB8A01B61CAE2EB80034741B /* Assets.xcassets in Resources */,
+				FB8A01B11CAE2EB80034741B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8A01BD1CAE2EB80034741B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8A01C81CAE2EB80034741B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8A01A41CAE2EB80034741B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8A01B41CAE2EB80034741B /* ContentBlockerExample.xcdatamodeld in Sources */,
+				FB8A01AE1CAE2EB80034741B /* ViewController.swift in Sources */,
+				FB8A01AC1CAE2EB80034741B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8A01BB1CAE2EB80034741B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8A01C41CAE2EB80034741B /* ContentBlockerExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8A01C61CAE2EB80034741B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8A01CF1CAE2EB80034741B /* ContentBlockerExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB8A01C11CAE2EB80034741B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8A01A71CAE2EB80034741B /* ContentBlockerExample */;
+			targetProxy = FB8A01C01CAE2EB80034741B /* PBXContainerItemProxy */;
+		};
+		FB8A01CC1CAE2EB80034741B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8A01A71CAE2EB80034741B /* ContentBlockerExample */;
+			targetProxy = FB8A01CB1CAE2EB80034741B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB8A01AF1CAE2EB80034741B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8A01B01CAE2EB80034741B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB8A01B71CAE2EB80034741B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8A01B81CAE2EB80034741B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB8A01D11CAE2EB80034741B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB8A01D21CAE2EB80034741B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8A01D41CAE2EB80034741B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContentBlockerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hongfeili.ContentBlockerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB8A01D51CAE2EB80034741B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContentBlockerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hongfeili.ContentBlockerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB8A01D71CAE2EB80034741B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContentBlockerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hongfeili.ContentBlockerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContentBlockerExample.app/ContentBlockerExample";
+			};
+			name = Debug;
+		};
+		FB8A01D81CAE2EB80034741B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContentBlockerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hongfeili.ContentBlockerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContentBlockerExample.app/ContentBlockerExample";
+			};
+			name = Release;
+		};
+		FB8A01DA1CAE2EB80034741B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ContentBlockerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hongfeili.ContentBlockerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ContentBlockerExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB8A01DB1CAE2EB80034741B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ContentBlockerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hongfeili.ContentBlockerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ContentBlockerExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8A01A31CAE2EB80034741B /* Build configuration list for PBXProject "ContentBlockerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8A01D11CAE2EB80034741B /* Debug */,
+				FB8A01D21CAE2EB80034741B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8A01D31CAE2EB80034741B /* Build configuration list for PBXNativeTarget "ContentBlockerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8A01D41CAE2EB80034741B /* Debug */,
+				FB8A01D51CAE2EB80034741B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB8A01D61CAE2EB80034741B /* Build configuration list for PBXNativeTarget "ContentBlockerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8A01D71CAE2EB80034741B /* Debug */,
+				FB8A01D81CAE2EB80034741B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB8A01D91CAE2EB80034741B /* Build configuration list for PBXNativeTarget "ContentBlockerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8A01DA1CAE2EB80034741B /* Debug */,
+				FB8A01DB1CAE2EB80034741B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB8A01B21CAE2EB80034741B /* ContentBlockerExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB8A01B31CAE2EB80034741B /* ContentBlockerExample.xcdatamodel */,
+			);
+			currentVersion = FB8A01B31CAE2EB80034741B /* ContentBlockerExample.xcdatamodel */;
+			path = ContentBlockerExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB8A01A01CAE2EB80034741B /* Project object */;
+}
