@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SuperEvil.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>FB8A01C91CAE2EB80034741B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB8A01DF1CAE2EF20034741B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

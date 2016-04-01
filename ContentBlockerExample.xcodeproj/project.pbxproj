@@ -15,6 +15,9 @@
 		FB8A01B91CAE2EB80034741B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8A01B71CAE2EB80034741B /* LaunchScreen.storyboard */; };
 		FB8A01C41CAE2EB80034741B /* ContentBlockerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A01C31CAE2EB80034741B /* ContentBlockerExampleTests.swift */; };
 		FB8A01CF1CAE2EB80034741B /* ContentBlockerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A01CE1CAE2EB80034741B /* ContentBlockerExampleUITests.swift */; };
+		FB8A01E31CAE2EF20034741B /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = FB8A01E21CAE2EF20034741B /* blockerList.json */; };
+		FB8A01E51CAE2EF20034741B /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8A01E41CAE2EF20034741B /* ActionRequestHandler.swift */; };
+		FB8A01E91CAE2EF20034741B /* SuperEvil.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB8A01E01CAE2EF20034741B /* SuperEvil.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +35,28 @@
 			remoteGlobalIDString = FB8A01A71CAE2EB80034741B;
 			remoteInfo = ContentBlockerExample;
 		};
+		FB8A01E71CAE2EF20034741B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8A01A01CAE2EB80034741B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8A01DF1CAE2EF20034741B;
+			remoteInfo = SuperEvil;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB8A01ED1CAE2EF20034741B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB8A01E91CAE2EF20034741B /* SuperEvil.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FB8A01A81CAE2EB80034741B /* ContentBlockerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentBlockerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +73,10 @@
 		FB8A01CA1CAE2EB80034741B /* ContentBlockerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContentBlockerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8A01CE1CAE2EB80034741B /* ContentBlockerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerExampleUITests.swift; sourceTree = "<group>"; };
 		FB8A01D01CAE2EB80034741B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8A01E01CAE2EF20034741B /* SuperEvil.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SuperEvil.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8A01E21CAE2EF20034741B /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		FB8A01E41CAE2EF20034741B /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
+		FB8A01E61CAE2EF20034741B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +101,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB8A01DD1CAE2EF20034741B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +117,7 @@
 				FB8A01AA1CAE2EB80034741B /* ContentBlockerExample */,
 				FB8A01C21CAE2EB80034741B /* ContentBlockerExampleTests */,
 				FB8A01CD1CAE2EB80034741B /* ContentBlockerExampleUITests */,
+				FB8A01E11CAE2EF20034741B /* SuperEvil */,
 				FB8A01A91CAE2EB80034741B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +128,7 @@
 				FB8A01A81CAE2EB80034741B /* ContentBlockerExample.app */,
 				FB8A01BF1CAE2EB80034741B /* ContentBlockerExampleTests.xctest */,
 				FB8A01CA1CAE2EB80034741B /* ContentBlockerExampleUITests.xctest */,
+				FB8A01E01CAE2EF20034741B /* SuperEvil.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +165,16 @@
 			path = ContentBlockerExampleUITests;
 			sourceTree = "<group>";
 		};
+		FB8A01E11CAE2EF20034741B /* SuperEvil */ = {
+			isa = PBXGroup;
+			children = (
+				FB8A01E21CAE2EF20034741B /* blockerList.json */,
+				FB8A01E41CAE2EF20034741B /* ActionRequestHandler.swift */,
+				FB8A01E61CAE2EF20034741B /* Info.plist */,
+			);
+			path = SuperEvil;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +185,12 @@
 				FB8A01A41CAE2EB80034741B /* Sources */,
 				FB8A01A51CAE2EB80034741B /* Frameworks */,
 				FB8A01A61CAE2EB80034741B /* Resources */,
+				FB8A01ED1CAE2EF20034741B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FB8A01E81CAE2EF20034741B /* PBXTargetDependency */,
 			);
 			name = ContentBlockerExample;
 			productName = ContentBlockerExample;
@@ -184,6 +233,23 @@
 			productReference = FB8A01CA1CAE2EB80034741B /* ContentBlockerExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FB8A01DF1CAE2EF20034741B /* SuperEvil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8A01EA1CAE2EF20034741B /* Build configuration list for PBXNativeTarget "SuperEvil" */;
+			buildPhases = (
+				FB8A01DC1CAE2EF20034741B /* Sources */,
+				FB8A01DD1CAE2EF20034741B /* Frameworks */,
+				FB8A01DE1CAE2EF20034741B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperEvil;
+			productName = SuperEvil;
+			productReference = FB8A01E01CAE2EF20034741B /* SuperEvil.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +271,9 @@
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = FB8A01A71CAE2EB80034741B;
 					};
+					FB8A01DF1CAE2EF20034741B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = FB8A01A31CAE2EB80034741B /* Build configuration list for PBXProject "ContentBlockerExample" */;
@@ -223,6 +292,7 @@
 				FB8A01A71CAE2EB80034741B /* ContentBlockerExample */,
 				FB8A01BE1CAE2EB80034741B /* ContentBlockerExampleTests */,
 				FB8A01C91CAE2EB80034741B /* ContentBlockerExampleUITests */,
+				FB8A01DF1CAE2EF20034741B /* SuperEvil */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +319,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8A01DE1CAE2EF20034741B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8A01E31CAE2EF20034741B /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +359,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB8A01DC1CAE2EF20034741B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8A01E51CAE2EF20034741B /* ActionRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +379,11 @@
 			isa = PBXTargetDependency;
 			target = FB8A01A71CAE2EB80034741B /* ContentBlockerExample */;
 			targetProxy = FB8A01CB1CAE2EB80034741B /* PBXContainerItemProxy */;
+		};
+		FB8A01E81CAE2EF20034741B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8A01DF1CAE2EF20034741B /* SuperEvil */;
+			targetProxy = FB8A01E71CAE2EF20034741B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -401,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ContentBlockerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hongfeili.ContentBlockerExample;
@@ -412,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ContentBlockerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hongfeili.ContentBlockerExample;
@@ -467,6 +560,30 @@
 			};
 			name = Release;
 		};
+		FB8A01EB1CAE2EF20034741B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				INFOPLIST_FILE = SuperEvil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hongfeili.ContentBlockerExample.SuperEvil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB8A01EC1CAE2EF20034741B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				INFOPLIST_FILE = SuperEvil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hongfeili.ContentBlockerExample.SuperEvil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,6 +617,14 @@
 			buildConfigurations = (
 				FB8A01DA1CAE2EB80034741B /* Debug */,
 				FB8A01DB1CAE2EB80034741B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB8A01EA1CAE2EF20034741B /* Build configuration list for PBXNativeTarget "SuperEvil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8A01EB1CAE2EF20034741B /* Debug */,
+				FB8A01EC1CAE2EF20034741B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
